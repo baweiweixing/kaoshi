@@ -1,0 +1,119 @@
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    html,
+    body,
+    .wrap {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .header {
+        width: 100%;
+        height: 0.87rem;
+    }
+    
+    .header ul {
+        height: 0.87rem;
+        line-height: 0.87rem;
+        display: flex;
+    }
+    
+    .header ul li {
+        font-size: 0.3rem;
+        margin-left: 0.38rem;
+    }
+    
+    .search {
+        width: 100%;
+        height: 0.9rem;
+    }
+    
+    .search .cont {
+        width: 96%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+    }
+    
+    .search .cont input {
+        float: left;
+        width: 4.7rem;
+        height: 0.6rem;
+        margin-top: 0.12rem;
+        border-radius: 4px;
+        background: #EEEFF0;
+        border: none;
+        outline-style: none;
+        text-indent: 7em;
+    }
+    
+    .search .cont .contright {
+        margin-left: 0.3rem;
+        width: 2.1rem;
+        height: 100%;
+        float: right;
+    }
+    
+    .search .cont .contright ol {
+        width: 100%;
+        height: 100%;
+        line-height: 0.9rem;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .search .cont .contright ol li {
+        font-size: 0.32rem;
+        flex: 1;
+        text-align: center;
+    }
+    
+    .banner {
+        width: 100%;
+        height: 3rem;
+    }
+    
+    .banner ul {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .banner ul li {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .banner ul li img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .bor {
+        margin-top: 0.4rem;
+        margin-left: 3%;
+        width: 97%;
+        height: 0.83rem;
+        position: relative;
+        border-top: 1px solid #ccc;
+    }
+    
+    .bor h3 {
+        font-size: 0.3rem;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    
+    .section {
+        clear: both;
+    }
